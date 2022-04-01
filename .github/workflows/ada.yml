@@ -20,8 +20,20 @@ jobs:
         sudo apt-get update &&
         sudo apt-get update && 
         sudo apt-get update && 
+        sudo apt-get update &&
+        sudo apt-get update &&
         sudo apt-get update && 
+        sudo apt-get update && 
+        sudo apt-get update &&
+           sudo apt-get update &&
+        sudo apt-get update && 
+        sudo apt-get update && 
+        sudo apt-get update &&
+        sudo apt-get update &&
+        sudo apt-get update && 
+        sudo apt-get update && 
+        sudo apt-get update &&
         sudo apt-get install gnat gprbuild
 
     - name: Build
-      run: gprbuild -j1 -p
+      run: gprbuild -j2 -p
